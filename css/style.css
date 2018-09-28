@@ -1,8 +1,12 @@
 
 .img { 
-  border-radius: 50%;
+  border-radius: 100%;
+  hieght: 50px;
+  width: 50px;
 }
 
 #top-title{
 font-family: arial;
+font-size: 100px;
+weight: 100px;
 }
