@@ -63,3 +63,37 @@ h2{
 .me{
     margin-left: 150px;}
 
+.high-school{
+    margin-left: 150px;
+    line-height: 0;
+    margin-top: 0px;
+}
+.edu{
+    margin-left: 770px;
+}
+
+.fgcu{
+    margin-left: 150px;
+    line-height: 0;
+    margin-top: 0px;
+}
+
+#skills{
+    margin-left: 800px;
+}
+.ps{
+margin-left: 150px;
+}
+
+.bi{
+    margin-left: 150px;
+}
+
+.ft{
+    float: right;
+    margin-right:600px;
+}
+.self{
+    float: right;
+    margin-right: 576px;
+}
