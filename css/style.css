@@ -1,11 +1,15 @@
 body{background-color: white;
-    animation: bounce;
  
 }
 
 #top{
  
-    background-color: antiquewhite;
+    background-image: url(https://images.unsplash.com/photo-1489861518096-4d12b732e831?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b54a866f144d0bd03a41a6ebf5e4b1b9&auto=format&fit=crop&w=1614&q=80);
+    padding-bottom: 200px;
+    padding-top: 100px;
+    
+    
+
 }
 
 .img { 
@@ -15,12 +19,16 @@ body{background-color: white;
 }
    
 #top-title{
-    margin-top: 0px;
+    
     font-family: arial;
     font-weight: normal;
     font-size: 60px;
-    color: white;
+    color: dimgray;
+    border: 5px solid;
+    margin-left: 425px;
+    margin-right: 425px;
 }
+
 
 p{
     font-family: calibri;
@@ -29,14 +37,16 @@ p{
 
 .container{
     text-align: center;
-    padding: 15px;
-    margin: 0 200px;
-    color: white
+    padding: 15px 100px;
+    margin: 0 250px;
+    color: dimgray
     
 }
 
 h2{
     margin-left: 100px;
+    line-height: 50px;
+    color: dimgray;
 }
 
 .panera-loc{
@@ -45,12 +55,13 @@ h2{
 }
 .ha{
     margin-left: 150px;
-    line-height: 0;
+    line-height: 2;
     margin-top: 0px;
 }
 
 .pe{
     margin-left: 150px;
+    line-height: 22px;
 }
 
 .ng-loc{
@@ -59,12 +70,14 @@ h2{
 }
 .v{
     margin-left: 150px;
-    line-height: 0;
-    margin-top: 0px;
+    line-height: 2;
+    margin-bottom: 0px;
 }
 
 .ge{
-    margin-left: 150px;}
+    margin-left: 150px;
+line-height: 22px;
+}
 
 .g-loc{
     display: inline;
@@ -72,11 +85,13 @@ h2{
 }
 
 .me{
-    margin-left: 150px;}
+    margin-left: 150px;
+line-height: 22px;
+}
 
 .high-school{
     margin-left: 150px;
-    line-height: 0;
+    line-height: 1;
     margin-top: 0px;
     font-style: italic;
 }
@@ -86,7 +101,7 @@ h2{
 
 .fgcu{
     margin-left: 150px;
-    line-height: 0;
+    line-height: 1;
     margin-top: 0px;
     font-style: italic;
 }
@@ -116,4 +131,12 @@ margin-left: 150px;
 
 li{
     font-family: arial;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.bottom{
+    margin-bottom: 100px;
 }
