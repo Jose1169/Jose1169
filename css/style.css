@@ -1,12 +1,65 @@
-
+body{
+    
+}
 .img { 
   border-radius: 100%;
-  hieght: 50px;
-  width: 50px;
+  height: 200px;
+  width: 200px;
+}
+   
+#top-title{
+    font-family: arial;
+    font-weight: normal;
+    font-size: 60px;
 }
 
-#top-title{
-font-family: arial;
-font-size: 100px;
-font-weight: 100px;
+p{
+    font-family: calibri;
+    font-size: 18px;
 }
+
+.container{
+    text-align: center;
+    padding: 15px;
+    margin: 0 200px;
+}
+
+h2{
+    margin-left: 100px;
+}
+
+.panera-loc{
+    display: inline;
+    font-weight: normal;
+}
+.ha{
+    margin-left: 150px;
+    line-height: 0;
+    margin-top: 0px;
+}
+
+.pe{
+    margin-left: 150px;
+}
+
+.ng-loc{
+    display: inline;
+    font-weight: normal;
+}
+.v{
+    margin-left: 150px;
+    line-height: 0;
+    margin-top: 0px;
+}
+
+.ge{
+    margin-left: 150px;}
+
+.g-loc{
+    display: inline;
+    font-weight: normal;
+}
+
+.me{
+    margin-left: 150px;}
+
