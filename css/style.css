@@ -4,11 +4,14 @@ margin: 0;
 
 .work{
     color: antiquewhite;
-    padding-top: 2%;
-    padding-bottom: 1%;
-    margin: auto;
+    margin:0;
+    font-size: 20px;
+    font-family:arial;
 }
 
+.w2{
+    padding-top: 20px;
+}
 .top{
 background-image: url(https://images.unsplash.com/photo-1489861518096-4d12b732e831?ixlib=rb0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b54a866f144d0bd03a41a6ebf5e4b1b9&auto=format&fit=crop&w=1614&q=80);
 padding-top: 0%;
@@ -17,7 +20,7 @@ padding-right: 5%;
 padding-left: 5%;
 background-attachment: fixed;
 background-repeat: no-repeat;
-background-position: bottom;
+background-position: center;
 margin: 0;
 
 }
