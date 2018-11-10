@@ -108,11 +108,20 @@
   <text fill="#ffffff" font-size="45" font-family="Verdana"
   x="40" y="100">239-287-4344</text>
       
-  </body>
-    
+      <canvas id="myCanvas" width="500" height="100"
+style="border:1px solid #d3d3d3;">
+Your browser does not support the canvas element.
+</canvas>
 
-  
-  
-  
+<script>
+var canvas = document.getElementById("myCanvas");
+var ctx=canvas.getContext("2d");
+ctx.font="30px arial";
+ctx.fillStyle = "orange";
+ctx.textAlign = "center";
+ctx.fillText("Jsilvestre1169@eagle.fgcu.edu", canvas.width/2, canvas.height/2);
+</script>
+      
+</body>
 </html>
  
