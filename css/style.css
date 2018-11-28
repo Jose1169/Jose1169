@@ -164,13 +164,6 @@ a{
     transition: all .4s ease-in-out;
     }
 
-.line{
-    width: 120px;
-    height: 3px;
-    background-color: dimgray;
-    transition: all .4s ease-in-out;
-    
-}
 
 a:nth-child(n):hover{
     color: antiquewhite;
