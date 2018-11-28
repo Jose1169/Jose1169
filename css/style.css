@@ -2,11 +2,7 @@ body{background-color: white;
 margin: 0;
 }
 
-.link{
-    color: dimgray;
-    margin:0;
-    font-size: 20px;
-    font-family:arial;
+
 }
 
 .w2{
@@ -160,6 +156,45 @@ li{
  text-align: center;
 }
 
+nav{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+a{
+    text-decoration: none;
+    color: dimgray;
+    text-align: center;
+    width: 120px;
+    padding: 1em 0;
+    display: inline-block;
+    font-family: arial;
+    font-size: 18px;
+    transition: all .4s ease-in-out;
+}
+
+.line{
+    width: 120px;
+    height: 3px;
+    background-color: dimgray;
+    transition: all .4s ease-in-out;
+}
+
+a:nth-child(n):hover{
+    color: antiquewhite;
+}
 
 
+a:nth-child(2):hover ~ .line {
+    transform: translate(120px);
+    transition: all .4s ease-in-out;
+
+}
+
+a:nth-child(3):hover ~ .line {
+    transform: translate(240px);
+    transition: all .4s ease-in-out;
+}
 
