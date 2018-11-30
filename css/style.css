@@ -5,12 +5,47 @@ p{
     font-family: calibri;
     font-size: 20px;}
 h2{
-    margin-left: 100px;
-    line-height: 50px;
+    font-size: 26px;
+    font-family:cambria; 
     color: dimgray;
     text-align: center;}
+h3{
+    font-size: 22px;
+    font-family: arial;
+    padding-left: 100px; 
+    color: dimgray;
+    font-weight: 10;}
+h4{
+    font-size: 18px;
+    padding-left: 125px;
+    font-family: arial;
+    font-weight: 200;
+    color: dimgray;}
+li{
+     font-family: arial;
+    font-size: 18px}
 
-/* Start of Upper half of Website */
+
+/* Start of Navagation Bar*/
+.navagation-bar{
+    padding-top: 20px;
+    text-align: center;}
+a{
+    text-decoration: none;
+    color: dimgray;
+    text-align: center;
+    width: 120px;
+    display: inline-block;
+    font-family: arial;
+    font-size: 18px;
+    transition: all .4s ease-in-out;}
+a:nth-child(n):hover{
+    color: antiquewhite;}
+/* End of Navagation Bar*/
+
+
+/* Start of Upper half of page */
+
 .upper-page-background{
     background-image: url(https://images.unsplash.com/photo-1489861518096-4d12b732e831?ixlib=rb0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b54a866f144d0bd03a41a6ebf5e4b1b9&auto=format&fit=crop&w=1614&q=80);
     padding-top: 0%;
@@ -46,100 +81,58 @@ h2{
     display: block;
     margin-left: auto;
     margin-right: auto;}
-/* End of Upper half of Website */
+/* End of Upper half of page */
 
-/* lower half of Website */
+
+
+/* Start of Work Experience and Education*/
 .panera-duties{
-    
-    line-height: 22px;
-}
+    line-height: 25px;
+    padding-left: 200px;
+    margin-left: auto;
+    margin-right: auto;}
 
-.ng-loc{
-    display: inline;
-    font-weight: normal;
-}
-.v{
-    margin-left: 150px;
-    line-height: 2;
-    margin-bottom: 0px;
-}
+.botanical-garden-duties{
+    line-height: 25px;
+    padding-left: 200px;
+    margin-left: auto;
+    margin-right: auto;}
 
-.ge{
-    margin-left: 150px;
-line-height: 22px;
-}
-
-.g-loc{
-    display: inline;
-    font-weight: normal;
-}
-
-.me{
-    margin-left: 150px;
-line-height: 22px;
-}
+.galisono-duties{
+    line-height: 25px;
+    padding-left: 200px;
+    margin-left: auto;
+    margin-right: auto;}
 
 .high-school{
-    margin-left: 150px;
-    line-height: 1;
-    margin-top: 0px;
-    font-style: italic;
-}
-
-
+    line-height: 25px;
+    padding-left: 125px;
+    font-style: italic;}
 .fgcu{
-    margin-left: 150px;
-    line-height: 1;
-    margin-top: 0px;
-    font-style: italic;
-}
-
-.ps{
-margin-left: 150px;
-}
-
-.bi{
-    margin-left: 150px;
-}
-
-.ft{
-    float: right;
-    margin-right:600px;
-}
-.self{
-    float: right;
-    margin-right: 578px;
-}
+    line-height: 25px;
+    padding-left: 125px;
+    font-style: italic;}
+/* End of Work Experience and Education*/
 
 
+/* Misc -fix video centering*/
+.skills{
+    padding-left: 200px;}
+.achievements{
+    width: 10px;
+    padding-left: 200px}
+.video{
+    margin: 0 auto;
+    display: block;
+    width: 330px;}
+.video-alternative{
+    padding-left: 45%;
+    padding-right: 60%;}
+.audio{
+    padding-left: 40%;
+    padding-right:60%;}
+svg{
+    padding-left: 35%;}
+canvas{
+    padding-left: 35%;}
 
-li{
-    font-family: arial;
-}
-
-.bottom{
-    margin-bottom: 100px;
-}
-
-/* Work CSS*/
-
-.nav{
-padding-top: 20px;
-text-align: center;
-}
-
-a{
-    text-decoration: none;
-    color: dimgray;
-    text-align: center;
-    width: 120px;
-    display: inline-block;
-    font-family: arial;
-    font-size: 18px;
-    transition: all .4s ease-in-out;
-    }
-
-
-a:nth-child(n):hover{
-    color: antiquewhite;
-}
