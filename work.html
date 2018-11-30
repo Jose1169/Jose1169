@@ -8,13 +8,33 @@
     
 <body>
     <div class="navagation-bar">     
-      <a class="link" href="index.html">Home</a>
-      <a class="link" href="work.html">Work</a>
-      <a class="link" href="contact.html">Contact</a>
+      <a class="link" href="index.html">Home</a>↩
+      <a class="link" href="work.html">Work</a>↩
+      <a class="link" href="contact.html">Contact</a>↩
     </div>
-  <h1>Accessibility Discussion</h1><br>
+<h1>Accessibility Discussion</h1><br>
     <div id="accessibility-container"> 
-      <p>I have made my website fit on any screen. This allows anyone to properly view my website on any device screen. There is a menu with hover color for better navigation. I have validated my CSS and HTML pages in World Wide Web Consortium validator. This means I have proper coding format. There are no style and contrast errors in my pages which allows for great usability.  In the event, a video does not function, or there is someone deaf there is alternative text available for my video. I have added an alternative link for audio in case a browser does not support the audio format. The link takes the user to the original audio: YouTube (it's an orchestral song). The audio and video alterative allow for better accessibility. </p>
+      <p>I have made my website fit on any screen. This allows anyone to properly view my website on any device screen. There is a menu with hover color for better navigation. I have validated my CSS in CC3 validator and all my HTML pages in HTML 5 validator. This means I have proper coding. There are no style and contrast errors in my pages which allows for great usability.  In the event, a video does not function, or there is someone deaf there is alternative text available for my video. I have added an alternative link for audio in case a browser does not support the audio format. The link takes the user to the original audio: YouTube (it's an orchestral song). The audio and video alterative allow for better accessibility. </p>
     </div>
+<h2>Ceaser Cipher</h2>
+    <p id = "output"></p>
+        <script>
+            var message= "Hello World!"; //the message to the encrypt
+            var position = 0;
+            var asciiCode;
+            var shiftedAsciiCode;
+            var encryptedMessage = "";
+            var count = 0;
+            var timesToExecute = 1000; 
+    
+            while(count < timesToExecute){
+            asciiCode = message.charCodeAt(position); // gets the code for the first letter
+            shiftedAsciiCode =asciiCode + 3;
+            encryptedMessage = encryptedMessage + String.fromCharCode(shiftedAsciiCode);
+            position = position + 1;
+            count = count + 1;}
+            document.getElementById("output").innerHTML = encryptedMessage;
+        </script> 
 </body>
 </html>
+
