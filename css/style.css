@@ -1,4 +1,4 @@
-/* General format of headings, paragraph, and lists */
+/*General format of headings, paragraph, and lists*/
 body{
     background-color: white;
     margin: 0;}
@@ -44,7 +44,7 @@ a:nth-child(n):hover{
     color: antiquewhite;}
 
 
-/*Upper half of page*/
+/*Upper half of About Page*/
 .upper-page-background{
     background-image: url(https://images.unsplash.com/photo-1489861518096-4d12b732e831?ixlib=rb0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b54a866f144d0bd03a41a6ebf5e4b1b9&auto=format&fit=crop&w=1614&q=80);
     padding-top: 0%;
@@ -81,7 +81,7 @@ a:nth-child(n):hover{
     margin-right: auto;}
 
 
-/*Work Experience and Education*/
+/*Work Experience and Education About page*/
 .panera-duties{
     line-height: 25px;
     padding-left: 200px;
@@ -107,7 +107,7 @@ a:nth-child(n):hover{
     font-style: italic;}
 
 
-/*Misc fix the centering of all these for better usability*/
+/*fix the centering for all these for better usability, About page*/
 .skills{
     padding-left: 200px;}
 .achievements{
