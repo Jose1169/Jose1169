@@ -1,3 +1,4 @@
+/* General format of headings, paragraph, and lists */
 body{
     background-color: white;
     margin: 0;}
@@ -26,7 +27,7 @@ li{
     font-size: 18px}
 
 
-/* Start of Navagation Bar*/
+/*Navagation Bar*/
 .navagation-bar{
     padding-top: 20px;
     text-align: center;}
@@ -41,11 +42,9 @@ a{
     transition: all .4s ease-in-out;}
 a:nth-child(n):hover{
     color: antiquewhite;}
-/* End of Navagation Bar*/
 
 
-/* Start of Upper half of page */
-
+/*Upper half of page*/
 .upper-page-background{
     background-image: url(https://images.unsplash.com/photo-1489861518096-4d12b732e831?ixlib=rb0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b54a866f144d0bd03a41a6ebf5e4b1b9&auto=format&fit=crop&w=1614&q=80);
     padding-top: 0%;
@@ -74,36 +73,30 @@ a:nth-child(n):hover{
     display: block;
     margin-left: auto;
     margin-right: auto;}
-
 .introduction-paragraph{
     color: dimgray;
     text-align: center;
     display: block;
     margin-left: auto;
     margin-right: auto;}
-/* End of Upper half of page */
 
 
-
-/* Start of Work Experience and Education*/
+/*Work Experience and Education*/
 .panera-duties{
     line-height: 25px;
     padding-left: 200px;
     margin-left: auto;
     margin-right: auto;}
-
 .botanical-garden-duties{
     line-height: 25px;
     padding-left: 200px;
     margin-left: auto;
     margin-right: auto;}
-
 .galisono-duties{
     line-height: 25px;
     padding-left: 200px;
     margin-left: auto;
     margin-right: auto;}
-
 .high-school{
     line-height: 25px;
     padding-left: 125px;
@@ -112,10 +105,9 @@ a:nth-child(n):hover{
     line-height: 25px;
     padding-left: 125px;
     font-style: italic;}
-/* End of Work Experience and Education*/
 
 
-/* Misc -fix video centering*/
+/*Misc fix the centering of all these for better usability*/
 .skills{
     padding-left: 200px;}
 .achievements{
