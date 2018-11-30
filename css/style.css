@@ -119,8 +119,7 @@ a:nth-child(n):hover{
 .skills{
     padding-left: 200px;}
 .achievements{
-    width: 10px;
-    padding-left: 200px}
+    text-align: center;}
 .video{
     margin: 0 auto;
     display: block;
@@ -136,3 +135,5 @@ svg{
 canvas{
     padding-left: 35%;}
 
+
+/* Work CSS Page*/
