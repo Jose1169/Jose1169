@@ -33,15 +33,15 @@
         		document.getElementById("output").innerHTML = encryptor;
         		while(count < timesToExecute){
             		asciiCode = encryptor.charCodeAt(position); // gets the code for the first letter
-            		shiftedAsciiCode =asciiCode + 3;
+            		shiftedAsciiCode =asciiCode + 3;// changes code for first letter by going forward
             		encryptedMessage = encryptedMessage + String.fromCharCode(shiftedAsciiCode);
             		position = position + 1;
             		count = count + 1;}
-			document.getElementById("output").innerHTML = encryptedMessage;}}
+			document.getElementById("output").innerHTML = encryptedMessage;}}// displays the output after encrypted
             	</script>
             
 <button onclick="myAnswer()">Decipher Message</button>
-	<p id = "reveal"></p>
+	<p id = "reveal"></p> <!-- reveal is the output for the cipher -->
     		<script>
         		function myAnswer() {
                 	var deEncryptor = prompt("What is your message?","")
@@ -55,12 +55,12 @@
                 	if (deEncryptor != null) {
                 	document.getElementById("reveal").innerHTML = deEncryptor;
                 	while(count < timesToExecute){
-                	newAsciiCode = deEncryptor.charCodeAt(start);
-                	leftShift = newAsciiCode - 3;
+                	newAsciiCode = deEncryptor.charCodeAt(start); // gets the code for the first letter
+                	leftShift = newAsciiCode - 3; // changes code for first letter by going backwards
                 	revealedMessage = revealedMessage + String.fromCharCode(leftShift);
                 	start = start + 1;
                 	count = count + 1;}
-                	document.getElementById("reveal").innerHTML = revealedMessage;}}
+                	document.getElementById("reveal").innerHTML = revealedMessage;}}// displays the output after decrypted
 		</script>
 </body>
 </html>
