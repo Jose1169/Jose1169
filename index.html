@@ -3,7 +3,7 @@
     <head>
     <meta charset="UTF-8">
     <title>About</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="style/css.css">
     </head>
                                                                 
 <body><!-- upper half of page with background -->
@@ -80,6 +80,7 @@
     </div>
     
 <h2>Phone</h2>
+<div class="svg">
     <svg height="130" width="500">  <!-- change the use of svg to something more creative -->
         <defs>
             <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -90,8 +91,10 @@
             <ellipse cx="200" cy="200" rx="200" ry="200" fill="url(#grad1)" />
             <text fill="#ffffff" font-size="45" font-family="Verdana" x="40" y="100">239-287-4344</text>
     </svg>   
+    </div>
       
 <h2>Email</h2>
+<div class="canvas">
     <canvas id="myCanvas" width="500" height="100" style="border:1px solid #d3d3d3;"> <!-- change the use of canvas to something more creative -->
     </canvas>
     <script>
@@ -102,4 +105,5 @@
                 ctx.textAlign = "center";
                 ctx.fillText("Jsilvestre1169@eagle.fgcu.edu", canvas.width/2, canvas.height/2);
     </script>
+    </div>
     </html>
