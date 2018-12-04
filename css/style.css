@@ -113,19 +113,24 @@ a:nth-child(n):hover{
 .achievements{
     text-align: center;}
 .video{
-    margin: 0 auto;
-    display: block;
-    width: 330px;}
+    display: flex;
+    justify-content: center;
+    align-items: center }
 .video-alternative{
     padding-left: 45%;
     padding-right: 60%;}
 .audio{
-    padding-left: 40%;
-    padding-right:60%;}
-svg{
-    padding-left: 35%;}
-canvas{
-    padding-left: 35%;}
+    display: flex;
+    justify-content: center;
+    align-items: center }
+.svg{
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+.canvas{
+    display: flex;
+    justify-content: center;
+    align-items: center;}
 
 
 /* Work CSS Page*/
